@@ -46,6 +46,7 @@ nav{
     color: #3C354F;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    border: none;
 }
 .nav-container button i{
     margin-left: 5px;
@@ -55,65 +56,6 @@ nav{
 }
 /* navbar section ends from here  */
 
-/* banner section starts from here 
-.banner{
-    background-color: rgb(197, 134, 194);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: left;
-    padding: 0px 300px;
-}
-.banner-content{
-    width: 50%;
-    padding: 80px 0px;
-}
-.banner-content h3{
-    color: #0B0223;
-    font-size: 48px;
-    font-weight: 600;
-}
-.banner-content h1{
-    font-size: 95px;
-    font-weight: 800;
-    color:  #c22fb6;
-    margin: 0px 0px 30px;
-}
-.banner-content p{
-    color: #534C64;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom:10px;
-}
-.banner-content i{    
-    padding-right: 15px;
-}
-.banner-content .red{
-    color: red;
-}
-.banner-content .btn{
-    margin-top: 35px;
-    padding: 10px 30px;
-    font-size: 20px;
-    border-radius: 48px;
-    color: #fff;
-    border: none;
-}
-.banner-content .signin{
-    background:  #FF42A5;
-}
-.banner-content .go-rogue{
-    background:  #4EC5F7;
-}
-.banner-image{
-    width: 50%;
-}
-.banner-image img{
-    width: 100%;
-    
-    text-align: right;
-}   
- banner section ends from here  */
 
  .banner{
     display: flex;
@@ -122,7 +64,6 @@ nav{
     justify-content: space-between;
     padding: 30px 100px 0px 120px;
     text-align: left;
-    margin-bottom: 100px;
     background-color: rgb(244, 205, 242);
 }
 .banner-content{
@@ -170,9 +111,55 @@ nav{
     color: #fff;
     border: none;
 }
-.banner-content .signin{
+ .btn-primary{
     background:  #FF42A5;
 }
-.banner-content .go-rogue{
+ .btn-blue{
     background:  #4EC5F7;
 }
+ /* We are gamer section starts from here  */
+ .gamer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px 0px 120px;
+    background-color: rgb(241, 182, 238);
+    text-align: right;
+    margin-bottom: 50px;
+ }
+ .gamer img{
+    width: 500px;
+    padding-left: 100px;
+ }
+ .gamer .gamer-content{
+    width: 500px;
+ }
+ .gamer-content h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    color: #bb58f1;
+ }
+ .gamer p{
+    
+    margin-top: 20px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+ .gamer button{
+    text-align: right;
+ }
+ .gamer .our-purpose{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .gamer span{
+    color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
+ }
