@@ -216,17 +216,18 @@ nav{
 /* Funny Videos section ends from here  */
 /* play section  */
 .play{
-    margin:  0px 240px;
+    /* margin:  0px 240px; */
     /* margin: 130px 50px 0px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    padding: 0px 200px;
 }
 .play-content{    
     width: 400px;
     text-align: center;
-    padding: 0px 0px 100px 100px;
+    padding: 0px 100px 100px 0px;
 }
 .play .play-title{    
     text-align: right;
@@ -246,9 +247,10 @@ nav{
     margin-top: 30px;
 }
 .play-img{
-    /* padding: 100px; */
+   width: 500px;
 }
 .play-img .img{ 
+    width: 100%;
     margin-left: 70px;
 }
 .badge-img {
