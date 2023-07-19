@@ -219,15 +219,16 @@ nav{
     /* margin:  0px 240px; */
     /* margin: 130px 50px 0px; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 0px 200px;
+    margin-bottom: 0px;
 }
 .play-content{    
     width: 400px;
     text-align: center;
-    padding: 0px 100px 100px 0px;
+    padding: 0px 10px 100px 0px;
 }
 .play .play-title{    
     text-align: right;
@@ -264,44 +265,45 @@ nav{
 
 /* play-games section starts from here  */
 .play-games{
-    margin:  0px 240px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
 }
-.play-games{
-    margin-left: 400px;
-    margin-top: -50px;
-}
-.play-games-img{
+.play-games-img {
     width: 500px;
 }
 .play-games-img img{
     width: 100%;
-    position: static;
+}
+.play-games-badge-img {
+    border-radius: 8px;
+    width: 300px;
+    position: relative;     
+    bottom: 150px;
+    left: 350px;
 }
 .play-games-content{
-    text-align: center;
     width: 500px;
 }
 .play-games-title{
     font-size: 48px;
     font-weight: 700;
     text-align: left;
-    padding: 0px 0px 50px 100px;
-    margin-bottom: 0px;
+    padding: 30px;
+}
+.play-games-title span{
+    color: #F948B2;
 }
 .play-games-description{
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
-    text-align: left;
-    padding: 0px 0px 50px 100px;
-    margin-top: 0px;
+    line-height: 25px;
 }
-.play-games-title span{
-    color: #F948B2;
-}
+
+
 /* media query starts from here  */
 
 @media screen and (max-width: 576px) {
