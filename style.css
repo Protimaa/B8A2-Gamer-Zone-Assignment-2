@@ -214,7 +214,47 @@ nav{
 }
 
 /* Funny Videos section ends from here  */
-
+/* play section  */
+.play{
+    /* margin: 130px 50px 0px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.play-content{    
+    width: 400px;
+    text-align: center;
+    padding: 0px 0px 100px 500px;
+}
+.play .play-title{    
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
+.play .play-title span{
+    color: #F948B2;
+}
+.play .play-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    bottom: 120px;
+    line-height: 30px;
+}
+.play-img{
+    /* padding: 100px; */
+}
+.play-img .img{ 
+    margin-left: 70px;
+}
+.badge-img {
+    border-radius: 8px;
+    width: 300px;
+    position: relative;     
+    bottom: 120px;
+}
 /* media query starts from here  */
 
 @media screen and (max-width: 576px) {
