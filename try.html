@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        nav {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px 0px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            margin-right: 15px;
+        }
+
+        .logo-container p {
+            color: #0B0223;
+            font-size: 45px;
+            font-weight: 700;
+        }
+
+        .logo-container .g {
+            color: #FF42A5;
+        }
+
+        .nav-container a {
+            color: #3C354F;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            margin-right: 25px;
+        }
+
+        .nav-container button {
+            padding: 10px;
+            font-size: 18px;
+            color: #3C354F;
+            border-radius: 8px;
+            background: rgba(11, 2, 35, 0.10);
+            border: none;
+        }
+
+        .nav-container button i {
+            margin-left: 5px;
+        }
+
+        .nav-container button i:first-child {
+            color: red;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 600px) {
+            .logo-container p {
+                font-size: 30px;
+            }
+
+            .nav-container a {
+                margin-right: 15px;
+                font-size: 16px;
+            }
+
+            .nav-container button {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="logo-container">
+            <img src="images/Frame.png" alt="">
+            <p><span class="g">G</span>amer</p>
+        </div>
+        <div class="nav-items-container">
+            <a href="">About Us</a>
+            <a href="">Developers</a>
+            <a href=""><button class="login-btn" href="">Follow Us On  <i class="fa-brands fa-youtube"></i>  <i class="fa-brands fa-tiktok"></i></button></a>
+        </div>
+    </nav>
+</body>
+</html>
