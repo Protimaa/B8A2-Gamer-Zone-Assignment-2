@@ -302,8 +302,63 @@ nav{
     font-weight: 400;
     line-height: 25px;
 }
-
-
+/* carrer section starts from here  */
+.carrer{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #F948B2;
+    padding: 40px;
+    background-image: url('images/Group\ 14.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carrer-description h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    margin-bottom: 2cqw;
+}
+.carrer-description p, .carrer-post{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.carrer-content{
+    width: 500px;
+    
+}
+.post, .name{
+    margin-top: 30px;
+}
+.post{
+    text-align: left;
+    padding-right: 60px;
+}
+.post button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    color: #F948B2;
+}
+.name{
+    text-align: right;
+}
+.carrer-post{
+    display: flex;
+}
+.carrer-image{
+    width: 500px;
+}
+.carrer-image img{
+    width: 100%;
+}
 /* media query starts from here  */
 
 @media screen and (max-width: 576px) {
