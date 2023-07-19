@@ -359,6 +359,28 @@ nav{
 .carrer-image img{
     width: 100%;
 }
+
+/* brand section starts from here  */
+.brand{
+    margin: 100px 180px;
+}
+.profile1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brand a{
+    text-decoration: none;
+    text-align: center;
+}
+.user-1{
+    display: flex;
+    align-items: center;
+}
+
 /* media query starts from here  */
 
 @media screen and (max-width: 576px) {
