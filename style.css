@@ -408,18 +408,15 @@ nav{
 
 /* brand section starts from here  */
 .brand{
-    margin: 100px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
 }
 
-.profile1{
-    display: flex;
-    justify-content: space-evenly;
-}
-.profile2{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .brand img{
     width: 50px;
     height: 50px;
@@ -436,7 +433,7 @@ nav{
 .user-1{
     display: flex;
     align-items: center;
-    padding: 1px;
+    padding: 10px;
     border: 1px solid #FFF;
 }
 .selected{
