@@ -521,11 +521,12 @@ footer{
 /* media query starts from here  */
 
 @media screen and (max-width: 576px) {
-    nav, .nav-items-container, .banner {
+    nav, .nav-items-container, .banner, .funny-video-card, .play, .play-games {
         flex-direction: column;
     }
     .gamer{
         flex-direction: column;
+       
         
     }
     .nav-container a{
